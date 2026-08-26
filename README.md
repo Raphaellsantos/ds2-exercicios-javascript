@@ -44,3 +44,8 @@ O controle de sessão (login ativo, tokens, tempo de expiração, permissões) p
 A mensagem exibida no erro foi essa :  Uncaught ReferenceError: Console is not defined.
 
 Significa que os comandos em JavaScript segue uma regra chamada case sensitive e quando não respeitada o comando desejado vai dar erro por não ser reconhecido.
+
+
+# Exercício 4 — Conversão de dados e cálculo de idade
+
+/*Quando você concatena a varialvel string, no console ele vai fazer a união desse tipo de varialvel por que não é uma variavel tipo "int" que se comporta como numero. Para fazer uma variavel tipo "string" aparecer como numero no console, temos que fazer a conversão do tipo de variavel para permitir fazer operações matemáticas e não somente a união de componentes *\
