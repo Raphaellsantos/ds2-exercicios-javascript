@@ -37,3 +37,10 @@ Um cálculo simples pode ser feito no client-side para exibição rápida, mas o
 
 6. controlar uma sessão de usuário. (Serve-side)
 O controle de sessão (login ativo, tokens, tempo de expiração, permissões) precisa ser gerenciado no servidor, que mantém o estado de forma confiável e segura
+
+
+# Exercício 3 — Primeiro script e diagnóstico pelo console
+
+A mensagem exibida no erro foi essa :  Uncaught ReferenceError: Console is not defined.
+
+Significa que os comandos em JavaScript segue uma regra chamada case sensitive e quando não respeitada o comando desejado vai dar erro por não ser reconhecido.
