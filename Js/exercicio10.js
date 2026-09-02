@@ -9,7 +9,7 @@
         usuario = prompt ("Digite o usuario");
         senha = prompt ("Digite a sua senha");
             
-        if (usuario === "admin" && senha === "123"){  //regra para liberar o sistema
+        if (usuario === "admin" && senha === "1234"){  //regra para liberar o sistema
         acessoLiberado = true;
 
             alert ("acesso liberado");
