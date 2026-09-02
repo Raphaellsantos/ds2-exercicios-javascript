@@ -76,6 +76,6 @@ do {
 
     continuar = prompt("Deseja cadastrar outro aluno ? (S / N)");
 
-} while (continuar === "s" || continuar === "sim");
+} while (continuar === "S" || continuar === "s" || continuar === "sim");
 
 console.log(`Total de alunos cadastrados: ${totalAlunos}`);
