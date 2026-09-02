@@ -13,7 +13,7 @@ if ( !apenasDigitos.test(idade) || idadeDigitada ==="" || idadeDigitada ==="null
 }else if (idade < 16){
     console.log (`Pela sua idade que é de: ${idade} anos, não é permitido votar`) 
 
-}else if (idade >= 16 && idade <=17, idade >=70) {
+}else if (idade >= 16 && idade <=17) {
     console.log (`Pela sua idade que é de:  ${idade} anos, seu voto é opcional`)
 
 }else {
